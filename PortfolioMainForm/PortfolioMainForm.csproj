@@ -100,10 +100,6 @@
       <Project>{ab7f0d81-c6b5-4dfe-8526-fef9030e054f}</Project>
       <Name>ManagementSystemWinFormProject</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ToolWinFormProject\ToolWinFormProject.csproj">
-      <Project>{590f49d8-789e-4c10-afb5-01843ec51fbc}</Project>
-      <Name>ToolWinFormProject</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

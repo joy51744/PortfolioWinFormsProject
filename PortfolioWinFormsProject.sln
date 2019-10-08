@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystemWinFormProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateWinFormProject", "CalculateWinFormProject\CalculateWinFormProject.csproj", "{EBBD4605-BA3C-41C6-A437-71737685CF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolWinFormProject", "ToolWinFormProject\ToolWinFormProject.csproj", "{590F49D8-789E-4C10-AFB5-01843EC51FBC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +51,6 @@ Global
 		{EBBD4605-BA3C-41C6-A437-71737685CF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBBD4605-BA3C-41C6-A437-71737685CF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBBD4605-BA3C-41C6-A437-71737685CF99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{590F49D8-789E-4C10-AFB5-01843EC51FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{590F49D8-789E-4C10-AFB5-01843EC51FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{590F49D8-789E-4C10-AFB5-01843EC51FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{590F49D8-789E-4C10-AFB5-01843EC51FBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
