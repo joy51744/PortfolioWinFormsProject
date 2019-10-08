@@ -62,7 +62,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
             this.button5.TabIndex = 11;
-            this.button5.Text = "小工具專案";
+            this.button5.Text = "控件項專案";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -101,7 +101,7 @@
             this.button1.Text = "課程專案";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // MaInForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,7 +113,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "MaInForm";
+            this.Name = "MainForm";
             this.Text = "馬顥心 | C#作品集";
             this.ResumeLayout(false);
             this.PerformLayout();

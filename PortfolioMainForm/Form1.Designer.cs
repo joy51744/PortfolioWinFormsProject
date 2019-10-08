@@ -53,7 +53,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 45);
             this.button6.TabIndex = 19;
-            this.button6.Text = "控件項專案";
+            this.button6.Text = "管理系統專案";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -63,7 +63,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
             this.button5.TabIndex = 18;
-            this.button5.Text = "管理系統專案";
+            this.button5.Text = "控件項專案";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
