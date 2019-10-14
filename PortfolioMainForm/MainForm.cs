@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PortfolioMainForm
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace PortfolioMainForm
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CalculateWinFormProject.Form1 main = new CalculateWinFormProject.Form1();
+            CalculateWinFormProject.CalculateMainForm main = new CalculateWinFormProject.CalculateMainForm();
             this.Visible = false;
             main.Show();
         }

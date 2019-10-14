@@ -49,13 +49,18 @@
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(271, 28);
+            this.label1.Location = new System.Drawing.Point(280, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(244, 29);
             this.label1.TabIndex = 21;
@@ -221,11 +226,40 @@
             this.button20.TabIndex = 41;
             this.button20.UseVisualStyleBackColor = true;
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel1,
+            this.toolStripSeparator1,
+            this.toolStripSeparator2});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.TabIndex = 42;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(94, 22);
+            this.toolStripLabel1.Text = "toolStripLabel1";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
@@ -249,6 +283,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "馬顥心 | C#遊戲專案";
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,6 +313,10 @@
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
 

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ToolWinFormProject
+namespace CalculateWinFormProject
 {
-    public partial class Form1 : Form
+    public partial class CalculateMainForm : Form
     {
-        public Form1()
+        public CalculateMainForm()
         {
             InitializeComponent();
         }

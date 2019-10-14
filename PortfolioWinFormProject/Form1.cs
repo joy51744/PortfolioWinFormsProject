@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ToolWinFormProject
+namespace PortfolioWinFormProject
 {
     public partial class Form1 : Form
     {

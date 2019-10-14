@@ -92,7 +92,7 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(130, 45);
             this.button13.TabIndex = 55;
-            this.button13.Text = "基本運算";
+            this.button13.Text = "九九乘法表";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // button12
@@ -102,7 +102,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(130, 45);
             this.button12.TabIndex = 54;
-            this.button12.Text = "九九乘法表";
+            this.button12.Text = "溫度轉換";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // button11
@@ -112,7 +112,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(130, 45);
             this.button11.TabIndex = 53;
-            this.button11.Text = "溫度轉換";
+            this.button11.Text = "邏輯判斷";
             this.button11.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -122,7 +122,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(130, 45);
             this.button10.TabIndex = 52;
-            this.button10.Text = "邏輯判斷";
+            this.button10.Text = "偶數判斷";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -132,7 +132,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(130, 45);
             this.button9.TabIndex = 51;
-            this.button9.Text = "偶數判斷";
+            this.button9.Text = "高鐵購票";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -142,7 +142,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 45);
             this.button8.TabIndex = 50;
-            this.button8.Text = "高鐵購票";
+            this.button8.Text = "便當統計";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -152,7 +152,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(130, 45);
             this.button7.TabIndex = 49;
-            this.button7.Text = "便當統計";
+            this.button7.Text = "計時器";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -162,7 +162,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 45);
             this.button6.TabIndex = 48;
-            this.button6.Text = "計時器";
+            this.button6.Text = "會員資訊";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -172,7 +172,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
             this.button5.TabIndex = 47;
-            this.button5.Text = "會員資訊";
+            this.button5.Text = "滾動字幕";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -182,7 +182,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 45);
             this.button4.TabIndex = 46;
-            this.button4.Text = "文字方塊";
+            this.button4.Text = "數字排序";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -192,7 +192,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 45);
             this.button3.TabIndex = 45;
-            this.button3.Text = "點擊次數";
+            this.button3.Text = "文字方塊";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -219,7 +219,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(290, 30);
+            this.label1.Location = new System.Drawing.Point(290, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 29);
             this.label1.TabIndex = 42;
