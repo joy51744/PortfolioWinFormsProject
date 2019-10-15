@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ClassWinFormProject
+namespace ClassWinFormProject1
 {
-    public partial class Form1 : Form
+    public partial class ClassMainForm1 : Form
     {
-        public Form1()
+        public ClassMainForm1()
         {
             InitializeComponent();
         }

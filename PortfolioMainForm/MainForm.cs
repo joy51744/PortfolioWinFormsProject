@@ -19,14 +19,14 @@ namespace PortfolioMainForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ClassWinFormProject.Form1 main = new ClassWinFormProject.Form1();
+            ClassWinFormProject.ClassMainForm main = new ClassWinFormProject.ClassMainForm();
             this.Visible = false;
             main.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ClassWinFormProject1.Form1 main = new ClassWinFormProject1.Form1();
+            ClassWinFormProject1.ClassMainForm1 main = new ClassWinFormProject1.ClassMainForm1();
             this.Visible = false;
             main.Show();
         }

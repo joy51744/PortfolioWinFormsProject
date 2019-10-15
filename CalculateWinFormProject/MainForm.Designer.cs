@@ -88,6 +88,7 @@
             this.button6.TabIndex = 35;
             this.button6.Text = "管理系統專案";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -97,6 +98,7 @@
             this.button5.TabIndex = 34;
             this.button5.Text = "小工具專案";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -106,6 +108,7 @@
             this.button4.TabIndex = 33;
             this.button4.Text = "遊戲專案";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -125,6 +128,7 @@
             this.button2.TabIndex = 31;
             this.button2.Text = "控件項專案";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -134,6 +138,7 @@
             this.button1.TabIndex = 30;
             this.button1.Text = "課程專案";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
