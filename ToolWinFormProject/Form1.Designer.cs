@@ -80,6 +80,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(130, 45);
             this.button16.TabIndex = 92;
+            this.button16.Text = "桌面便條";
             this.button16.UseVisualStyleBackColor = true;
             // 
             // button14
@@ -89,6 +90,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(130, 45);
             this.button14.TabIndex = 90;
+            this.button14.Text = "加密小工具";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // button13
@@ -98,6 +100,7 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(130, 45);
             this.button13.TabIndex = 89;
+            this.button13.Text = "生日提醒";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -107,7 +110,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 45);
             this.button8.TabIndex = 84;
-            this.button8.Text = "序號產生器";
+            this.button8.Text = "定時器";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button6
