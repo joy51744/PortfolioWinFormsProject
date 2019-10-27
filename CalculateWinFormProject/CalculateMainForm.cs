@@ -16,5 +16,10 @@ namespace CalculateWinFormProject
         {
             InitializeComponent();
         }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
+        }
     }
 }

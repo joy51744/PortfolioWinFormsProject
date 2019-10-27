@@ -26,7 +26,7 @@ namespace PortfolioMainForm
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ClassWinFormProject1.ClassMainForm1 main = new ClassWinFormProject1.ClassMainForm1();
+            ControlWinFormProject.ControlMainForm main = new ControlWinFormProject.ControlMainForm();
             this.Visible = false;
             main.Show();
         }
@@ -40,23 +40,28 @@ namespace PortfolioMainForm
 
         private void button4_Click(object sender, EventArgs e)
         {
-            GameWinFormProject.Form1 main = new GameWinFormProject.Form1();
+            GameWinFormProject.GameMainForm main = new GameWinFormProject.GameMainForm();
             this.Visible = false;
             main.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ToolWinFormProject.Form1 main = new ToolWinFormProject.Form1();
+            ToolWinFormProject.ToolMainForm main = new ToolWinFormProject.ToolMainForm();
             this.Visible = false;
             main.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ManagementSystemWinFormProject.Form1 main = new ManagementSystemWinFormProject.Form1();
+            ManagementSystemWinFormProject.ManagementSystemMainForm main = new ManagementSystemWinFormProject.ManagementSystemMainForm();
             this.Visible = false;
             main.Show();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ToolWinFormProject
 {
-    partial class Form1
+    partial class ToolMainForm
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -60,8 +60,9 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(94, 22);
-            this.toolStripLabel1.Text = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Text = "離開";
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -76,7 +77,7 @@
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button16.Location = new System.Drawing.Point(645, 376);
+            this.button16.Location = new System.Drawing.Point(645, 383);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(130, 45);
             this.button16.TabIndex = 92;
@@ -85,58 +86,58 @@
             // 
             // button14
             // 
-            this.button14.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button14.Location = new System.Drawing.Point(645, 230);
+            this.button14.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button14.Location = new System.Drawing.Point(645, 240);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(130, 45);
             this.button14.TabIndex = 90;
-            this.button14.Text = "加密小工具";
+            this.button14.Text = "多媒體播放器";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button13.Location = new System.Drawing.Point(643, 85);
+            this.button13.Location = new System.Drawing.Point(645, 98);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(130, 45);
             this.button13.TabIndex = 89;
-            this.button13.Text = "生日提醒";
+            this.button13.Text = "截圖";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button8.Location = new System.Drawing.Point(334, 376);
+            this.button8.Location = new System.Drawing.Point(334, 383);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 45);
             this.button8.TabIndex = 84;
-            this.button8.Text = "定時器";
+            this.button8.Text = "條碼產生器";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("標楷體", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button6.Location = new System.Drawing.Point(334, 230);
+            this.button6.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button6.Location = new System.Drawing.Point(334, 240);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 45);
             this.button6.TabIndex = 82;
-            this.button6.Text = "身分證產生器";
+            this.button6.Text = "身分證認證";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button5.Location = new System.Drawing.Point(334, 85);
+            this.button5.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button5.Location = new System.Drawing.Point(334, 98);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
             this.button5.TabIndex = 81;
-            this.button5.Text = "身分證認證";
+            this.button5.Text = "身分證產生器";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(25, 375);
+            this.button4.Location = new System.Drawing.Point(25, 382);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 45);
             this.button4.TabIndex = 80;
@@ -146,34 +147,34 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(25, 230);
+            this.button2.Location = new System.Drawing.Point(25, 240);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 45);
             this.button2.TabIndex = 78;
-            this.button2.Text = "條碼";
+            this.button2.Text = "生日提醒";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(25, 85);
+            this.button1.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.Location = new System.Drawing.Point(25, 98);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 45);
             this.button1.TabIndex = 77;
-            this.button1.Text = "截圖";
+            this.button1.Text = "定時器";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(285, 35);
+            this.label1.Font = new System.Drawing.Font("Calisto MT", 21.75F);
+            this.label1.Location = new System.Drawing.Point(292, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 29);
+            this.label1.Size = new System.Drawing.Size(215, 34);
             this.label1.TabIndex = 76;
             this.label1.Text = "C# Tool Project";
             // 
-            // Form1
+            // ToolMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -189,8 +190,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ToolMainForm";
+            this.Text = "馬顥心 | C#小工具專案";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

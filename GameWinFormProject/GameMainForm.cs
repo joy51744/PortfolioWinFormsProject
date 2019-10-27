@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ManagementSystemWinFormProject
+namespace GameWinFormProject
 {
-    public partial class MainForm : Form
+    public partial class GameMainForm : Form
     {
-        public MainForm()
+        public GameMainForm()
         {
             InitializeComponent();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
         }
     }
 }

@@ -84,13 +84,13 @@
       <Project>{ebbd4605-ba3c-41c6-a437-71737685cf99}</Project>
       <Name>CalculateWinFormProject</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClassWinFormProject1\ClassWinFormProject1.csproj">
-      <Project>{2cbce840-f5f5-427e-bfa5-c325f816bf7b}</Project>
-      <Name>ClassWinFormProject1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ClassWinFormProject\ClassWinFormProject.csproj">
       <Project>{5ae1b3ec-75b7-42d2-a44b-781117c51394}</Project>
       <Name>ClassWinFormProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlWinFormProject\ControlWinFormProject.csproj">
+      <Project>{46942f0e-3311-4d4e-a9a3-009007eb9bd6}</Project>
+      <Name>ControlWinFormProject</Name>
     </ProjectReference>
     <ProjectReference Include="..\GameWinFormProject\GameWinFormProject.csproj">
       <Project>{7609f0fb-15d2-4a28-9275-e5a2c0a10b1d}</Project>

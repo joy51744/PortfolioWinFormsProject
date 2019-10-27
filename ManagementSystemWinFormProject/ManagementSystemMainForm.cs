@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ManagementSystemWinFormProject
 {
-    public partial class Form1 : Form
+    public partial class ManagementSystemMainForm : Form
     {
-        public Form1()
+        public ManagementSystemMainForm()
         {
             InitializeComponent();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
         }
     }
 }

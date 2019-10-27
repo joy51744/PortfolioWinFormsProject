@@ -39,7 +39,7 @@
             this.buttonSimple = new System.Windows.Forms.Button();
             this.buttonBMI = new System.Windows.Forms.Button();
             this.buttonInterestCalculate = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonClick = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -51,7 +51,7 @@
             // buttonCountdownDay
             // 
             this.buttonCountdownDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountdownDay.Location = new System.Drawing.Point(644, 384);
+            this.buttonCountdownDay.Location = new System.Drawing.Point(644, 382);
             this.buttonCountdownDay.Name = "buttonCountdownDay";
             this.buttonCountdownDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountdownDay.TabIndex = 101;
@@ -61,7 +61,7 @@
             // buttonCountDay
             // 
             this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountDay.Location = new System.Drawing.Point(644, 237);
+            this.buttonCountDay.Location = new System.Drawing.Point(644, 242);
             this.buttonCountDay.Name = "buttonCountDay";
             this.buttonCountDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountDay.TabIndex = 100;
@@ -71,7 +71,7 @@
             // buttonAgeCalculate
             // 
             this.buttonAgeCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonAgeCalculate.Location = new System.Drawing.Point(644, 86);
+            this.buttonAgeCalculate.Location = new System.Drawing.Point(644, 98);
             this.buttonAgeCalculate.Name = "buttonAgeCalculate";
             this.buttonAgeCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonAgeCalculate.TabIndex = 99;
@@ -81,7 +81,7 @@
             // buttonLoanCalculate
             // 
             this.buttonLoanCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonLoanCalculate.Location = new System.Drawing.Point(438, 384);
+            this.buttonLoanCalculate.Location = new System.Drawing.Point(438, 382);
             this.buttonLoanCalculate.Name = "buttonLoanCalculate";
             this.buttonLoanCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonLoanCalculate.TabIndex = 98;
@@ -91,7 +91,7 @@
             // buttonPostageCalculate
             // 
             this.buttonPostageCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonPostageCalculate.Location = new System.Drawing.Point(438, 86);
+            this.buttonPostageCalculate.Location = new System.Drawing.Point(438, 98);
             this.buttonPostageCalculate.Name = "buttonPostageCalculate";
             this.buttonPostageCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonPostageCalculate.TabIndex = 97;
@@ -101,7 +101,7 @@
             // buttonDiscountCalculator
             // 
             this.buttonDiscountCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonDiscountCalculator.Location = new System.Drawing.Point(232, 384);
+            this.buttonDiscountCalculator.Location = new System.Drawing.Point(232, 382);
             this.buttonDiscountCalculator.Name = "buttonDiscountCalculator";
             this.buttonDiscountCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonDiscountCalculator.TabIndex = 96;
@@ -111,7 +111,7 @@
             // buttonArithmeticCalculator
             // 
             this.buttonArithmeticCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(232, 235);
+            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(232, 240);
             this.buttonArithmeticCalculator.Name = "buttonArithmeticCalculator";
             this.buttonArithmeticCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonArithmeticCalculator.TabIndex = 95;
@@ -121,7 +121,7 @@
             // buttonCalculator
             // 
             this.buttonCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCalculator.Location = new System.Drawing.Point(232, 86);
+            this.buttonCalculator.Location = new System.Drawing.Point(232, 98);
             this.buttonCalculator.Name = "buttonCalculator";
             this.buttonCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonCalculator.TabIndex = 94;
@@ -131,7 +131,7 @@
             // buttonSimple
             // 
             this.buttonSimple.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonSimple.Location = new System.Drawing.Point(26, 384);
+            this.buttonSimple.Location = new System.Drawing.Point(26, 382);
             this.buttonSimple.Name = "buttonSimple";
             this.buttonSimple.Size = new System.Drawing.Size(130, 45);
             this.buttonSimple.TabIndex = 93;
@@ -141,7 +141,7 @@
             // buttonBMI
             // 
             this.buttonBMI.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonBMI.Location = new System.Drawing.Point(26, 235);
+            this.buttonBMI.Location = new System.Drawing.Point(26, 240);
             this.buttonBMI.Name = "buttonBMI";
             this.buttonBMI.Size = new System.Drawing.Size(130, 45);
             this.buttonBMI.TabIndex = 92;
@@ -151,30 +151,30 @@
             // buttonInterestCalculate
             // 
             this.buttonInterestCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonInterestCalculate.Location = new System.Drawing.Point(438, 235);
+            this.buttonInterestCalculate.Location = new System.Drawing.Point(438, 240);
             this.buttonInterestCalculate.Name = "buttonInterestCalculate";
             this.buttonInterestCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonInterestCalculate.TabIndex = 91;
             this.buttonInterestCalculate.Text = "利息計算器";
             this.buttonInterestCalculate.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonClick
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(26, 86);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 45);
-            this.button1.TabIndex = 90;
-            this.button1.Text = "點擊次數";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonClick.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonClick.Location = new System.Drawing.Point(26, 98);
+            this.buttonClick.Name = "buttonClick";
+            this.buttonClick.Size = new System.Drawing.Size(130, 45);
+            this.buttonClick.TabIndex = 90;
+            this.buttonClick.Text = "點擊次數";
+            this.buttonClick.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(254, 30);
+            this.label1.Font = new System.Drawing.Font("Calisto MT", 21.75F);
+            this.label1.Location = new System.Drawing.Point(265, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 29);
+            this.label1.Size = new System.Drawing.Size(272, 34);
             this.label1.TabIndex = 89;
             this.label1.Text = "C# Calculate Project";
             // 
@@ -195,6 +195,7 @@
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -223,7 +224,7 @@
             this.Controls.Add(this.buttonSimple);
             this.Controls.Add(this.buttonBMI);
             this.Controls.Add(this.buttonInterestCalculate);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonClick);
             this.Controls.Add(this.label1);
             this.Name = "CalculateMainForm";
             this.Text = "馬顥心 | C#計算專案";
@@ -247,7 +248,7 @@
         private System.Windows.Forms.Button buttonSimple;
         private System.Windows.Forms.Button buttonBMI;
         private System.Windows.Forms.Button buttonInterestCalculate;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonClick;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;

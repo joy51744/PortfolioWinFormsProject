@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControlWinFormProject
+namespace ToolWinFormProject
 {
-    public partial class MainForm : Form
+    public partial class ToolMainForm : Form
     {
-        public MainForm()
+        public ToolMainForm()
         {
             InitializeComponent();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
         }
     }
 }

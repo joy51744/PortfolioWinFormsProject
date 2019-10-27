@@ -16,5 +16,20 @@ namespace ClassWinFormProject
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
+        }
+
+        private void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
+        }
+
+        private void buttonHello_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
+        }
     }
 }
