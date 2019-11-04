@@ -19,49 +19,43 @@ namespace PortfolioMainForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ClassWinFormProject.ClassMainForm main = new ClassWinFormProject.ClassMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ControlWinFormProject.ControlMainForm main = new ControlWinFormProject.ControlMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CalculateWinFormProject.CalculateMainForm main = new CalculateWinFormProject.CalculateMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            GameWinFormProject.GameMainForm main = new GameWinFormProject.GameMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ToolWinFormProject.ToolMainForm main = new ToolWinFormProject.ToolMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ManagementSystemWinFormProject.ManagementSystemMainForm main = new ManagementSystemWinFormProject.ManagementSystemMainForm();
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
             this.Visible = false;
-            main.Show();
         }
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            System.Environment.Exit(0);
         }
     }
 }
