@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -57,7 +58,7 @@
             this.button6.Location = new System.Drawing.Point(264, 326);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 45);
-            this.button6.TabIndex = 19;
+            this.button6.TabIndex = 6;
             this.button6.Text = "管理系統專案";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -67,7 +68,7 @@
             this.button5.Location = new System.Drawing.Point(40, 326);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
-            this.button5.TabIndex = 18;
+            this.button5.TabIndex = 5;
             this.button5.Text = "小工具專案";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -77,37 +78,39 @@
             this.button4.Location = new System.Drawing.Point(264, 214);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 45);
-            this.button4.TabIndex = 17;
+            this.button4.TabIndex = 4;
             this.button4.Text = "遊戲專案";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(40, 214);
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.Location = new System.Drawing.Point(40, 102);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 45);
-            this.button3.TabIndex = 16;
+            this.button3.TabIndex = 1;
             this.button3.Text = "計算專案";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.Location = new System.Drawing.Point(264, 102);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 45);
-            this.button2.TabIndex = 15;
+            this.button2.TabIndex = 2;
             this.button2.Text = "控件項專案";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(40, 102);
+            this.button1.Location = new System.Drawing.Point(40, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 45);
-            this.button1.TabIndex = 14;
+            this.button1.TabIndex = 3;
             this.button1.Text = "課程專案";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
