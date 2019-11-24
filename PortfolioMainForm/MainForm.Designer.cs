@@ -65,6 +65,7 @@
             // 
             // button5
             // 
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.Location = new System.Drawing.Point(40, 326);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 45);
@@ -107,6 +108,7 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.Location = new System.Drawing.Point(40, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 45);
